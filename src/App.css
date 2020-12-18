@@ -1,0 +1,169 @@
+*{
+    font-family: cursive;
+}
+
+.main {
+    background-color: rgb(197, 197, 197);
+    min-height: 100vh;
+}
+.row{
+    margin: 0 !important;
+    padding: 0!important;
+
+}
+
+.head-text{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 230, 0);
+    letter-spacing: 8px;
+    margin: 30px 0;
+    text-shadow: 1px 1px black;
+}
+
+.head-text h1{
+    font-size: 4em !important;
+}
+
+.todo-form{
+    display: flex;
+    justify-content: center;
+}
+.todoForm{
+    color: red;
+}
+.todoForm input{
+    text-align: start;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.4em;
+    padding: 5px 40px 5px 15px;
+    color: rgb(138, 138, 138) !important;
+    transition: all .5s;
+}
+
+
+.todoForm input:focus{
+    box-shadow: 0px 0px 8px 2px rgb(255, 230, 0);
+    transform: scale(1.02);
+    transition: all .5s;
+    background-color: rgb(252, 249, 246);
+    border: none !important;
+}
+
+.form-control-edit{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 60% !important;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border: none !important;
+    transition: all .3s;
+    
+}
+
+.form-control-edit:focus{
+    box-shadow: 0px 0px 5px 1px rgb(255, 230, 0) !important;
+    border: none !important;
+    transition: all .3s;
+}
+
+.todo-list{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px !important;
+    margin-left: 50% !important;
+    transform: translateX(-50%);
+    width: 90% !important;
+}
+
+.todo-body{
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 2px 1px white;
+    width: 100%;
+    border-bottom: 0 solid rgb(255, 230, 0);
+    transition: all .2s;
+    border-radius: 5px;
+}
+
+.todo-body:hover {
+    border-bottom: 2px solid rgb(255, 230, 0);
+    transition: all .3s;
+}
+
+.todo-body .todo-body-text{
+    font-size: 1.4em !important;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.btn-edit{
+    position: absolute;
+    top: 2px;
+    right: 50px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.btn-submit{
+    font-size: 1.5em;
+    margin-top: 20px;
+    padding: 2px 8px;
+    border-radius: 50%;
+    background-color: rgb(63, 63, 63);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: all .2s;
+}
+
+.btn-submit:hover{
+    color: rgb(107, 107, 107);
+    background-color: rgb(252, 230, 39);
+    transform: scale(1.02) translateY(-1px);
+    transition: all .2s;
+}
+
+
+
+.btn-edit:hover{
+    color: rgb(2, 2, 2);
+    transition: all .2s;
+}
+
+.btn-delete{
+    position: absolute;
+    top: 2px;
+    right: 30px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: all .2s;
+}
+
+.btn-delete:hover{
+    color: rgb(255, 81, 0);
+    transition: all .2s;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 50px;
+    font-size: .7em;
+    color: rgb(82, 82, 82);
+    text-shadow: .2px 0px rgb(156, 156, 156);
+}
+
+.footer a{
+    color: salmon;
+}
+
+.footer a:hover{
+    color: salmon;
+}
